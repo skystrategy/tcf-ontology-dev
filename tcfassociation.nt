@@ -49,6 +49,7 @@
 <http://tcftest.org/schema/awbTotalPieces> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://tcftest.org/schema/awbTotalPieces> <http://www.w3.org/2000/01/rdf-schema#description> "The total number of pieces on the AWB ." .
 <http://tcftest.org/schema/awbTotalPieces> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/AirStatusUpdate> .
+<http://tcftest.org/schema/awbTotalPieces> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/EmptyGood> .
 <http://tcftest.org/schema/awbTotalPieces> <http://www.w3.org/2000/01/rdf-schema#label> "AWB Total Pieces" .
 <http://tcftest.org/schema/awbTotalPieces> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
 <http://tcftest.org/schema/awbTotalWeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -154,6 +155,10 @@
 <http://tcftest.org/schema/discrepancyDescription> <http://www.w3.org/2000/01/rdf-schema#label> "Discrepancy Description" .
 <http://tcftest.org/schema/discrepancyDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://tcftest.org/schema/Draft> <http://www.w3.org/2000/01/rdf-schema#label> "Draft" .
+<http://tcftest.org/schema/EmptyGood> <http://purl.org/dc/terms/modified> "2018-06-06T20:58:07.672Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/EmptyGood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcftest.org/schema/EmptyGood> <http://www.w3.org/2000/01/rdf-schema#description> "This is an empty good." .
+<http://tcftest.org/schema/EmptyGood> <http://www.w3.org/2000/01/rdf-schema#label> "Empty Good" .
 <http://tcftest.org/schema/eta-Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://tcftest.org/schema/eta-Location> <http://www.w3.org/2000/01/rdf-schema#description> "The Date/Time when a vessel estimates it will arrive at a specified location, as per port section standards." .
 <http://tcftest.org/schema/eta-Location> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/SeaStatusUpdate> .
@@ -420,6 +425,10 @@
 <http://tcftest.org/schema/shippersInstructionShippersReference> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/ShippersInstruction> .
 <http://tcftest.org/schema/shippersInstructionShippersReference> <http://www.w3.org/2000/01/rdf-schema#label> "Reference" .
 <http://tcftest.org/schema/shippersInstructionShippersReference> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://tcftest.org/schema/size> <http://purl.org/dc/terms/modified> "2018-06-06T19:26:33.400Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/size> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/EmptyGood> .
+<http://tcftest.org/schema/size> <http://www.w3.org/2000/01/rdf-schema#label> "size" .
+<http://tcftest.org/schema/size> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
 <http://tcftest.org/schema/Status> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
