@@ -279,16 +279,6 @@
 <http://tcftest.org/schema/netWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/Package> .
 <http://tcftest.org/schema/netWeight> <http://www.w3.org/2000/01/rdf-schema#label> "netWeight" .
 <http://tcftest.org/schema/netWeight> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
-<http://tcftest.org/schema/NewClass2> <http://purl.org/dc/terms/modified> "2018-05-01T14:27:51.925Z"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://tcftest.org/schema/NewClass2> <http://www.w3.org/2000/01/rdf-schema#description> "" .
-<http://tcftest.org/schema/NewClass2> <http://www.w3.org/2000/01/rdf-schema#label> "New Class 2" .
-<http://tcftest.org/schema/NewClass5> <http://purl.org/dc/terms/description> "The TCF Logistics Open Ontology is a OWL ontology designed to support the logistics industry." .
-<http://tcftest.org/schema/NewClass5> <http://purl.org/dc/terms/modified> "2018-05-01T22:48:38.849Z"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://tcftest.org/schema/NewClass5> <http://purl.org/dc/terms/title> "The TCF Logistics open ontology" .
-<http://tcftest.org/schema/NewClass5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://tcftest.org/schema/NewClass5> <http://www.w3.org/2000/01/rdf-schema#comment> "comment 5" .
-<http://tcftest.org/schema/NewClass5> <http://www.w3.org/2000/01/rdf-schema#description> "description 5" .
-<http://tcftest.org/schema/NewClass5> <http://www.w3.org/2000/01/rdf-schema#label> "New Class 5" .
 <http://tcftest.org/schema/notifiedTimestamp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://tcftest.org/schema/notifiedTimestamp> <http://www.w3.org/2000/01/rdf-schema#description> "A time stamp for the notification of the status update ." .
 <http://tcftest.org/schema/notifiedTimestamp> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/AirStatusUpdate> .
