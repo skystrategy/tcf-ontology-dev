@@ -1,5 +1,5 @@
 <http://schema.org/geo> <http://schema.org/domainIncludes> <http://tcftest.org/pouch/TrackUpdate> .
-<http://tcftest.org/schema/> <http://purl.org/dc/terms/modified> "2018-06-06T21:03:26.478Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/> <http://purl.org/dc/terms/modified> "2018-06-07T14:32:35.345Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/Accelerometer> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/Accelerometer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/accelerometer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -113,10 +113,16 @@
 <http://tcftest.org/schema/consignee> <http://www.w3.org/2000/01/rdf-schema#label> "Consignee" .
 <http://tcftest.org/schema/consignee> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Organization> .
 <http://tcftest.org/schema/Consignment> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/consignment> <http://purl.org/dc/terms/modified> "2018-06-06T21:03:26.478Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/Consignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcftest.org/schema/consignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://tcftest.org/schema/Consignment> <http://www.w3.org/2000/01/rdf-schema#comment> "A separately identifiable collection of goods items to be transported or available to be transported from one consignor to one consignee via one or more modes of transport where each consignment is the subject of one single transport contract." .
+<http://tcftest.org/schema/consignment> <http://www.w3.org/2000/01/rdf-schema#description> "A consignment has one pick up address, one delivery address and contain multiple packages." .
 <http://tcftest.org/schema/Consignment> <http://www.w3.org/2000/01/rdf-schema#description> "A separately identifiable collection of goods items to be transported or available to be transported from one consignor to one consignee via one or more modes of transport where each consignment is the subject of one single transport contract." .
+<http://tcftest.org/schema/consignment> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/ShippersInstruction> .
+<http://tcftest.org/schema/consignment> <http://www.w3.org/2000/01/rdf-schema#label> "consignment" .
 <http://tcftest.org/schema/Consignment> <http://www.w3.org/2000/01/rdf-schema#label> "Consignment" .
+<http://tcftest.org/schema/consignment> <http://www.w3.org/2000/01/rdf-schema#range> <http://tcftest.org/schema/Consignment> .
 <http://tcftest.org/schema/Consignment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://tcftest.org/schema/LogisticsObject> .
 <http://tcftest.org/schema/consignor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://tcftest.org/schema/consignor> <http://www.w3.org/2000/01/rdf-schema#description> "The consignor party for this consignment." .
