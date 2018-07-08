@@ -170,6 +170,11 @@
 <http://tcftest.org/schema/EmptyGood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/EmptyGood> <http://www.w3.org/2000/01/rdf-schema#description> "This is an empty good." .
 <http://tcftest.org/schema/EmptyGood> <http://www.w3.org/2000/01/rdf-schema#label> "Empty Good" .
+<http://tcftest.org/schema/engine> <http://purl.org/dc/terms/modified> "2018-07-08T19:46:57.279Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/engine> <http://www.w3.org/2000/01/rdf-schema#comment> "Diesel, electric, steam" .
+<http://tcftest.org/schema/engine> <http://www.w3.org/2000/01/rdf-schema#description> "Engine type." .
+<http://tcftest.org/schema/engine> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/RailroadEngine> .
+<http://tcftest.org/schema/engine> <http://www.w3.org/2000/01/rdf-schema#label> "engine" .
 <http://tcftest.org/schema/eta-Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://tcftest.org/schema/eta-Location> <http://www.w3.org/2000/01/rdf-schema#description> "The Date/Time when a vessel estimates it will arrive at a specified location, as per port section standards." .
 <http://tcftest.org/schema/eta-Location> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/SeaStatusUpdate> .
@@ -386,7 +391,7 @@
 <http://tcftest.org/schema/quantityOfPackages> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/ShippersInstruction> .
 <http://tcftest.org/schema/quantityOfPackages> <http://www.w3.org/2000/01/rdf-schema#label> "Quantity of packages" .
 <http://tcftest.org/schema/quantityOfPackages> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
-<http://tcftest.org/schema/RailroadEngine> <http://purl.org/dc/terms/modified> "2018-07-08T19:43:18.592Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/RailroadEngine> <http://purl.org/dc/terms/modified> "2018-07-08T19:46:57.279Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/RailroadEngine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/RailroadEngine> <http://www.w3.org/2000/01/rdf-schema#comment> "Unlike a waggon, this is the engine." .
 <http://tcftest.org/schema/RailroadEngine> <http://www.w3.org/2000/01/rdf-schema#description> "This is a class for a railroad engine. " .
