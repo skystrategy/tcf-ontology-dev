@@ -1,4 +1,5 @@
 <http://schema.org/geo> <http://schema.org/domainIncludes> <http://tcftest.org/pouch/TrackUpdate> .
+<http://tcftest.org/schema/> <http://purl.org/dc/terms/modified> "2018-07-08T19:50:32.295Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/Accelerometer> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/Accelerometer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/accelerometer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -547,6 +548,11 @@
 <http://tcftest.org/schema/volume> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/ShippersInstruction> .
 <http://tcftest.org/schema/volume> <http://www.w3.org/2000/01/rdf-schema#label> "Volume" .
 <http://tcftest.org/schema/volume> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://tcftest.org/schema/wheelArangement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcftest.org/schema/wheelArangement> <http://www.w3.org/2000/01/rdf-schema#comment> "This is the type of the wheel arrangement. One has to use the UIC model, also known as the German classification or German system." .
+<http://tcftest.org/schema/wheelArangement> <http://www.w3.org/2000/01/rdf-schema#description> "Classification of the wheel arrangement, in UIC classification." .
+<http://tcftest.org/schema/wheelArangement> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/RailroadEngine> .
+<http://tcftest.org/schema/wheelArangement> <http://www.w3.org/2000/01/rdf-schema#label> "wheelArangement" .
 <http://tcftest.org/schema/width> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://tcftest.org/schema/width> <http://www.w3.org/2000/01/rdf-schema#description> "A measure of the width of this trade line item." .
 <http://tcftest.org/schema/width> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/Package> .
