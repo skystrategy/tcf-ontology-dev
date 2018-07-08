@@ -1,5 +1,4 @@
 <http://schema.org/geo> <http://schema.org/domainIncludes> <http://tcftest.org/pouch/TrackUpdate> .
-<http://tcftest.org/schema/> <http://purl.org/dc/terms/modified> "2018-07-08T19:52:12.907Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/Accelerometer> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/Accelerometer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/accelerometer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -204,6 +203,7 @@
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#description> "A measure of the gross weight (mass) of these consignments which includes the weight of packaging but which excludes the weight of any transport equipment." .
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/Package> .
+<http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/RailroadWaggon> .
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/ShippersInstruction> .
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#label> "grossWeight" .
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
@@ -397,6 +397,11 @@
 <http://tcftest.org/schema/RailroadEngine> <http://www.w3.org/2000/01/rdf-schema#comment> "Unlike a waggon, this is the engine." .
 <http://tcftest.org/schema/RailroadEngine> <http://www.w3.org/2000/01/rdf-schema#description> "This is a class for a railroad engine. " .
 <http://tcftest.org/schema/RailroadEngine> <http://www.w3.org/2000/01/rdf-schema#label> "RailroadEngine" .
+<http://tcftest.org/schema/RailroadWaggon> <http://purl.org/dc/terms/modified> "2018-07-08T20:08:22.459Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/RailroadWaggon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcftest.org/schema/RailroadWaggon> <http://www.w3.org/2000/01/rdf-schema#comment> "Each waggon of the railroad should have an instance of this class." .
+<http://tcftest.org/schema/RailroadWaggon> <http://www.w3.org/2000/01/rdf-schema#description> "This is a waggon of the railroad" .
+<http://tcftest.org/schema/RailroadWaggon> <http://www.w3.org/2000/01/rdf-schema#label> "RailroadWaggon" .
 <http://tcftest.org/schema/RailStatusUpdate> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/RailStatusUpdate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/RailStatusUpdate> <http://www.w3.org/2000/01/rdf-schema#comment> "A status update on a logistics object in the transport mode of rail." .
