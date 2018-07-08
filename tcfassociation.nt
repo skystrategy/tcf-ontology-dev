@@ -1,5 +1,4 @@
 <http://schema.org/geo> <http://schema.org/domainIncludes> <http://tcftest.org/pouch/TrackUpdate> .
-<http://tcftest.org/schema/> <http://purl.org/dc/terms/modified> "2018-07-08T19:52:12.907Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/Accelerometer> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/Accelerometer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/accelerometer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -392,6 +391,10 @@
 <http://tcftest.org/schema/quantityOfPackages> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/ShippersInstruction> .
 <http://tcftest.org/schema/quantityOfPackages> <http://www.w3.org/2000/01/rdf-schema#label> "Quantity of packages" .
 <http://tcftest.org/schema/quantityOfPackages> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://tcftest.org/schema/RailPort> <http://purl.org/dc/terms/modified> "2018-07-08T20:29:53.436Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/RailPort> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcftest.org/schema/RailPort> <http://www.w3.org/2000/01/rdf-schema#description> "Class for large railway ports" .
+<http://tcftest.org/schema/RailPort> <http://www.w3.org/2000/01/rdf-schema#label> "RailPort" .
 <http://tcftest.org/schema/RailroadEngine> <http://purl.org/dc/terms/modified> "2018-07-08T19:46:57.279Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/RailroadEngine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/RailroadEngine> <http://www.w3.org/2000/01/rdf-schema#comment> "Unlike a waggon, this is the engine." .
