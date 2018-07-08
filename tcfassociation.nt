@@ -1,5 +1,4 @@
 <http://schema.org/geo> <http://schema.org/domainIncludes> <http://tcftest.org/pouch/TrackUpdate> .
-<http://tcftest.org/schema/> <http://purl.org/dc/terms/modified> "2018-06-07T14:32:35.345Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/Accelerometer> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/Accelerometer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/accelerometer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -392,6 +391,11 @@
 <http://tcftest.org/schema/RailStatusUpdate> <http://www.w3.org/2000/01/rdf-schema#comment> "A status update on a logistics object in the transport mode of rail." .
 <http://tcftest.org/schema/RailStatusUpdate> <http://www.w3.org/2000/01/rdf-schema#label> "Rail Status Update" .
 <http://tcftest.org/schema/RailStatusUpdate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://tcftest.org/schema/StatusUpdate> .
+<http://tcftest.org/schema/RailwayPouch> <http://purl.org/dc/terms/modified> "2018-07-08T19:36:31.811Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/RailwayPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcftest.org/schema/RailwayPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "This is the pouch that can be found on the side of a railroad freight car." .
+<http://tcftest.org/schema/RailwayPouch> <http://www.w3.org/2000/01/rdf-schema#description> "Pouch on a railway. " .
+<http://tcftest.org/schema/RailwayPouch> <http://www.w3.org/2000/01/rdf-schema#label> "RailwayPouch" .
 <http://tcftest.org/schema/rejectionReason> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://tcftest.org/schema/rejectionReason> <http://www.w3.org/2000/01/rdf-schema#description> "This is why the MAWB was rejected ." .
 <http://tcftest.org/schema/rejectionReason> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/AirStatusUpdate> .
