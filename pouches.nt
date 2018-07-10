@@ -50,6 +50,7 @@
 <http://tcftest.org/pouch/ShippersPouch> <http://schema.org/hasPart> <http://tcftest.org/schema/Consignment> .
 <http://tcftest.org/pouch/ShippersPouch> <http://schema.org/hasPart> <http://tcftest.org/schema/DangerousGoodsDeclaration> .
 <http://tcftest.org/pouch/ShippersPouch> <http://schema.org/hasPart> <http://tcftest.org/schema/EmptyGood> .
+<http://tcftest.org/pouch/ShippersPouch> <http://schema.org/hasPart> <http://tcftest.org/schema/NewClass> .
 <http://tcftest.org/pouch/ShippersPouch> <http://schema.org/hasPart> <http://tcftest.org/schema/Package> .
 <http://tcftest.org/pouch/ShippersPouch> <http://schema.org/hasPart> <http://tcftest.org/schema/ShippersInstruction> .
 <http://tcftest.org/pouch/ShippersPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
