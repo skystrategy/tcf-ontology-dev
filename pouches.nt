@@ -40,6 +40,9 @@
 <http://tcftest.org/pouch/org/PanalpinaAB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Corporation> .
 <http://tcftest.org/pouch/org/PanalpinaAB> <http://www.w3.org/2000/01/rdf-schema#label> "Panalpina AB" .
 <http://tcftest.org/pouch/RailPouch> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/pouch/RailPouch> <http://schema.org/hasPart> <http://tcftest.org/schema/RailPort> .
+<http://tcftest.org/pouch/RailPouch> <http://schema.org/hasPart> <http://tcftest.org/schema/RailroadEngine> .
+<http://tcftest.org/pouch/RailPouch> <http://schema.org/hasPart> <http://tcftest.org/schema/RailroadWaggon> .
 <http://tcftest.org/pouch/RailPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <http://tcftest.org/pouch/RailPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Rail Pouch" .
 <http://tcftest.org/pouch/ShippersPouch> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .

@@ -1,5 +1,4 @@
 <http://schema.org/geo> <http://schema.org/domainIncludes> <http://tcftest.org/pouch/TrackUpdate> .
-<http://tcftest.org/schema/> <http://purl.org/dc/terms/modified> "2018-06-06T21:03:26.478Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/Accelerometer> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/Accelerometer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/accelerometer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -113,10 +112,16 @@
 <http://tcftest.org/schema/consignee> <http://www.w3.org/2000/01/rdf-schema#label> "Consignee" .
 <http://tcftest.org/schema/consignee> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Organization> .
 <http://tcftest.org/schema/Consignment> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/consignment> <http://purl.org/dc/terms/modified> "2018-06-06T21:03:26.478Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/Consignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcftest.org/schema/consignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://tcftest.org/schema/Consignment> <http://www.w3.org/2000/01/rdf-schema#comment> "A separately identifiable collection of goods items to be transported or available to be transported from one consignor to one consignee via one or more modes of transport where each consignment is the subject of one single transport contract." .
+<http://tcftest.org/schema/consignment> <http://www.w3.org/2000/01/rdf-schema#description> "A consignment has one pick up address, one delivery address and contain multiple packages." .
 <http://tcftest.org/schema/Consignment> <http://www.w3.org/2000/01/rdf-schema#description> "A separately identifiable collection of goods items to be transported or available to be transported from one consignor to one consignee via one or more modes of transport where each consignment is the subject of one single transport contract." .
+<http://tcftest.org/schema/consignment> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/ShippersInstruction> .
+<http://tcftest.org/schema/consignment> <http://www.w3.org/2000/01/rdf-schema#label> "consignment" .
 <http://tcftest.org/schema/Consignment> <http://www.w3.org/2000/01/rdf-schema#label> "Consignment" .
+<http://tcftest.org/schema/consignment> <http://www.w3.org/2000/01/rdf-schema#range> <http://tcftest.org/schema/Consignment> .
 <http://tcftest.org/schema/Consignment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://tcftest.org/schema/LogisticsObject> .
 <http://tcftest.org/schema/consignor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://tcftest.org/schema/consignor> <http://www.w3.org/2000/01/rdf-schema#description> "The consignor party for this consignment." .
@@ -165,6 +170,11 @@
 <http://tcftest.org/schema/EmptyGood> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/EmptyGood> <http://www.w3.org/2000/01/rdf-schema#description> "This is an empty good." .
 <http://tcftest.org/schema/EmptyGood> <http://www.w3.org/2000/01/rdf-schema#label> "Empty Good" .
+<http://tcftest.org/schema/engine> <http://purl.org/dc/terms/modified> "2018-07-08T19:46:57.279Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/engine> <http://www.w3.org/2000/01/rdf-schema#comment> "Diesel, electric, steam" .
+<http://tcftest.org/schema/engine> <http://www.w3.org/2000/01/rdf-schema#description> "Engine type." .
+<http://tcftest.org/schema/engine> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/RailroadEngine> .
+<http://tcftest.org/schema/engine> <http://www.w3.org/2000/01/rdf-schema#label> "engine" .
 <http://tcftest.org/schema/eta-Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://tcftest.org/schema/eta-Location> <http://www.w3.org/2000/01/rdf-schema#description> "The Date/Time when a vessel estimates it will arrive at a specified location, as per port section standards." .
 <http://tcftest.org/schema/eta-Location> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/SeaStatusUpdate> .
@@ -193,6 +203,7 @@
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#description> "A measure of the gross weight (mass) of these consignments which includes the weight of packaging but which excludes the weight of any transport equipment." .
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/Package> .
+<http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/RailroadWaggon> .
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/ShippersInstruction> .
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#label> "grossWeight" .
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
@@ -381,6 +392,20 @@
 <http://tcftest.org/schema/quantityOfPackages> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/ShippersInstruction> .
 <http://tcftest.org/schema/quantityOfPackages> <http://www.w3.org/2000/01/rdf-schema#label> "Quantity of packages" .
 <http://tcftest.org/schema/quantityOfPackages> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://tcftest.org/schema/RailPort> <http://purl.org/dc/terms/modified> "2018-07-08T20:29:53.436Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/RailPort> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcftest.org/schema/RailPort> <http://www.w3.org/2000/01/rdf-schema#description> "Class for large railway ports" .
+<http://tcftest.org/schema/RailPort> <http://www.w3.org/2000/01/rdf-schema#label> "RailPort" .
+<http://tcftest.org/schema/RailroadEngine> <http://purl.org/dc/terms/modified> "2018-07-08T19:46:57.279Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/RailroadEngine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcftest.org/schema/RailroadEngine> <http://www.w3.org/2000/01/rdf-schema#comment> "Unlike a waggon, this is the engine." .
+<http://tcftest.org/schema/RailroadEngine> <http://www.w3.org/2000/01/rdf-schema#description> "This is a class for a railroad engine. " .
+<http://tcftest.org/schema/RailroadEngine> <http://www.w3.org/2000/01/rdf-schema#label> "RailroadEngine" .
+<http://tcftest.org/schema/RailroadWaggon> <http://purl.org/dc/terms/modified> "2018-07-08T20:08:22.459Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/RailroadWaggon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcftest.org/schema/RailroadWaggon> <http://www.w3.org/2000/01/rdf-schema#comment> "Each waggon of the railroad should have an instance of this class." .
+<http://tcftest.org/schema/RailroadWaggon> <http://www.w3.org/2000/01/rdf-schema#description> "This is a waggon of the railroad" .
+<http://tcftest.org/schema/RailroadWaggon> <http://www.w3.org/2000/01/rdf-schema#label> "RailroadWaggon" .
 <http://tcftest.org/schema/RailStatusUpdate> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/RailStatusUpdate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/RailStatusUpdate> <http://www.w3.org/2000/01/rdf-schema#comment> "A status update on a logistics object in the transport mode of rail." .
@@ -532,6 +557,13 @@
 <http://tcftest.org/schema/volume> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/ShippersInstruction> .
 <http://tcftest.org/schema/volume> <http://www.w3.org/2000/01/rdf-schema#label> "Volume" .
 <http://tcftest.org/schema/volume> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://tcftest.org/schema/wheelArrangement> <http://purl.org/dc/terms/modified> "2018-07-08T19:54:35.313Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/wheelArrangement> <http://tcftest.org/schema/example> "<http://www.example.org/engine/1234> <http://tcftest.org/schema/wheelArangement> \"12334\"" .
+<http://tcftest.org/schema/wheelArrangement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcftest.org/schema/wheelArrangement> <http://www.w3.org/2000/01/rdf-schema#comment> "Wheel arrangement in UIC classification, also known as German classification or German system." .
+<http://tcftest.org/schema/wheelArrangement> <http://www.w3.org/2000/01/rdf-schema#description> "Wheel arrangement in UIC classification" .
+<http://tcftest.org/schema/wheelArrangement> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/RailroadEngine> .
+<http://tcftest.org/schema/wheelArrangement> <http://www.w3.org/2000/01/rdf-schema#label> "wheelArrangement" .
 <http://tcftest.org/schema/width> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://tcftest.org/schema/width> <http://www.w3.org/2000/01/rdf-schema#description> "A measure of the width of this trade line item." .
 <http://tcftest.org/schema/width> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/Package> .
