@@ -1,4 +1,5 @@
 <http://schema.org/geo> <http://schema.org/domainIncludes> <http://tcftest.org/pouch/TrackUpdate> .
+<http://tcftest.org/schema/> <http://purl.org/dc/terms/modified> "2018-07-13T10:21:58.083Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/Accelerometer> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/Accelerometer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/accelerometer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -303,7 +304,7 @@
 <http://tcftest.org/schema/netWeight> <http://www.w3.org/2000/01/rdf-schema#label> "netWeight" .
 <http://tcftest.org/schema/netWeight> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
 <http://tcftest.org/schema/NewClass> <http://purl.org/dc/terms/modified> "2018-07-10T12:21:24.120Z"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://tcftest.org/schema/NewClass> <http://tcftest.org/schema/example> "<http://www.example.org/NewClass1> a <http://tcftest.org/NewClass> ;\n<http://tcftest.org/consignment> <http://www.example.org/consignment1> ;\n<http://tcftest.org/test> \"test\" ." .
+<http://tcftest.org/schema/NewClass> <http://tcftest.org/schema/example> "<http://www.example.org/NewClass1> a <http://localhost:8080/NewClass> ;\n<http://localhost:8080/consignment> <http://www.example.org/consignment1> ;\n<http://localhost:8080/test> \"test\" ." .
 <http://tcftest.org/schema/NewClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/NewClass> <http://www.w3.org/2000/01/rdf-schema#description> "test" .
 <http://tcftest.org/schema/NewClass> <http://www.w3.org/2000/01/rdf-schema#label> "NewClass" .
@@ -515,12 +516,17 @@
 <http://tcftest.org/schema/temperatureKelvin> <http://www.w3.org/2000/01/rdf-schema#label> "Temperature in Kelvin" .
 <http://tcftest.org/schema/temperatureKelvin> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
 <http://tcftest.org/schema/test> <http://purl.org/dc/terms/modified> "2018-07-10T12:21:24.120Z"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://tcftest.org/schema/test> <http://tcftest.org/schema/example> "<http://www.example.org/NewClass1> <http://tcftest.org/test> \"test\" ." .
+<http://tcftest.org/schema/test> <http://tcftest.org/schema/example> "<http://www.example.org/NewClass1> <http://localhost:8080/test> \"test\" ." .
 <http://tcftest.org/schema/test> <http://www.w3.org/2000/01/rdf-schema#description> "test" .
 <http://tcftest.org/schema/test> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/NewClass> .
 <http://tcftest.org/schema/test> <http://www.w3.org/2000/01/rdf-schema#label> "test" .
 <http://tcftest.org/schema/TestClass1> <http://purl.org/dc/terms/modified> "2018-05-01T14:09:16.543Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/TestClass1> <http://www.w3.org/2000/01/rdf-schema#label> "Test Class 1" .
+<http://tcftest.org/schema/testMarkdown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcftest.org/schema/testMarkdown> <http://www.w3.org/2000/01/rdf-schema#comment> "**Test** *Markdown*" .
+<http://tcftest.org/schema/testMarkdown> <http://www.w3.org/2000/01/rdf-schema#description> "Test Markdown" .
+<http://tcftest.org/schema/testMarkdown> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/ShippersInstruction> .
+<http://tcftest.org/schema/testMarkdown> <http://www.w3.org/2000/01/rdf-schema#label> "TestMarkdown" .
 <http://tcftest.org/schema/TrackUpdate> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/TrackUpdate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/TrackUpdate> <http://www.w3.org/2000/01/rdf-schema#comment> "An update on a logistics object of different sensoring data such as location, temperature, humidity, accelerometer, or pressure." .
@@ -569,7 +575,7 @@
 <http://tcftest.org/schema/volume> <http://www.w3.org/2000/01/rdf-schema#label> "Volume" .
 <http://tcftest.org/schema/volume> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
 <http://tcftest.org/schema/wheelArrangement> <http://purl.org/dc/terms/modified> "2018-07-08T19:54:35.313Z"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://tcftest.org/schema/wheelArrangement> <http://tcftest.org/schema/example> "<http://www.example.org/engine/1234> <http://tcftest.org/schema/wheelArangement> \"12334\"" .
+<http://tcftest.org/schema/wheelArrangement> <http://tcftest.org/schema/example> "<http://www.example.org/engine/1234> <http://localhost:8080/schema/wheelArangement> \"12334\"" .
 <http://tcftest.org/schema/wheelArrangement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://tcftest.org/schema/wheelArrangement> <http://www.w3.org/2000/01/rdf-schema#comment> "Wheel arrangement in UIC classification, also known as German classification or German system." .
 <http://tcftest.org/schema/wheelArrangement> <http://www.w3.org/2000/01/rdf-schema#description> "Wheel arrangement in UIC classification" .
