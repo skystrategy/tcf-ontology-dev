@@ -27,7 +27,7 @@
 <http://tcftest.org/pouch/ForwarderPouch> <http://schema.org/hasPart> <http://tcftest.org/schema/HAWB> .
 <http://tcftest.org/pouch/ForwarderPouch> <http://schema.org/hasPart> <http://tcftest.org/schema/MAWB> .
 <http://tcftest.org/pouch/ForwarderPouch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
-<http://tcftest.org/pouch/ForwarderPouch>  <http://www.w3.org/2000/01/rdf-schema#comment> "TODO" .
+<http://tcftest.org/pouch/ForwarderPouch> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO" .
 <http://tcftest.org/pouch/ForwarderPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Forwarder Pouch" .
 <http://tcftest.org/pouch/MaritimePouch> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/pouch/MaritimePouch> <http://schema.org/hasPart> <http://tcftest.org/schema/Port> .
