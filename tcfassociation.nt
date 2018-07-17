@@ -1,5 +1,4 @@
 <http://schema.org/geo> <http://schema.org/domainIncludes> <http://tcftest.org/pouch/TrackUpdate> .
-<http://tcftest.org/schema/> <http://purl.org/dc/terms/modified> "2018-07-13T10:21:58.083Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/Accelerometer> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/Accelerometer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/accelerometer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -204,6 +203,7 @@
 <http://tcftest.org/schema/forwarder> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Organization> .
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#description> "A measure of the gross weight (mass) of these consignments which includes the weight of packaging but which excludes the weight of any transport equipment." .
+<http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/LiamsClass> .
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/Package> .
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/RailroadWaggon> .
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/ShippersInstruction> .
@@ -264,6 +264,10 @@
 <http://tcftest.org/schema/length> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/Package> .
 <http://tcftest.org/schema/length> <http://www.w3.org/2000/01/rdf-schema#label> "Length" .
 <http://tcftest.org/schema/length> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://tcftest.org/schema/LiamsClass> <http://purl.org/dc/terms/modified> "2018-07-16T12:39:23.425Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/LiamsClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcftest.org/schema/LiamsClass> <http://www.w3.org/2000/01/rdf-schema#description> "short description" .
+<http://tcftest.org/schema/LiamsClass> <http://www.w3.org/2000/01/rdf-schema#label> "LiamsClass" .
 <http://tcftest.org/schema/Light> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/Light> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/light> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -298,6 +302,12 @@
 <http://tcftest.org/schema/MAWB> <http://www.w3.org/2000/01/rdf-schema#comment> "TBD" .
 <http://tcftest.org/schema/MAWB> <http://www.w3.org/2000/01/rdf-schema#label> "Master AirWayBill" .
 <http://tcftest.org/schema/MAWB> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://tcftest.org/schema/LogisticsObject> .
+<http://tcftest.org/schema/myNewProperty> <http://purl.org/dc/terms/modified> "2018-07-16T12:39:23.425Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/myNewProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "a very very very veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery very long description" .
+<http://tcftest.org/schema/myNewProperty> <http://www.w3.org/2000/01/rdf-schema#description> "short description" .
+<http://tcftest.org/schema/myNewProperty> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/LiamsClass> .
+<http://tcftest.org/schema/myNewProperty> <http://www.w3.org/2000/01/rdf-schema#label> "myNewProperty" .
+<http://tcftest.org/schema/myNewProperty> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://tcftest.org/schema/netWeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://tcftest.org/schema/netWeight> <http://www.w3.org/2000/01/rdf-schema#description> "A measure of the net weight (mass) of this trade line item which excludes all packaging.." .
 <http://tcftest.org/schema/netWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/Package> .
