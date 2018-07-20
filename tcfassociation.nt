@@ -81,6 +81,11 @@
 <http://tcftest.org/schema/batteryVoltage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/Battery> .
 <http://tcftest.org/schema/batteryVoltage> <http://www.w3.org/2000/01/rdf-schema#label> "Battery Voltage" .
 <http://tcftest.org/schema/batteryVoltage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://tcftest.org/schema/BendTheSpoon> <http://purl.org/dc/terms/modified> "2018-07-20T16:00:47.389Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/BendTheSpoon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcftest.org/schema/BendTheSpoon> <http://www.w3.org/2000/01/rdf-schema#comment> "A class for bending the spoon" .
+<http://tcftest.org/schema/BendTheSpoon> <http://www.w3.org/2000/01/rdf-schema#description> "This class should be used on the spoon" .
+<http://tcftest.org/schema/BendTheSpoon> <http://www.w3.org/2000/01/rdf-schema#label> "BendTheSpoon" .
 <http://tcftest.org/schema/bluetoothHid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://tcftest.org/schema/bluetoothHid> <http://www.w3.org/2000/01/rdf-schema#description> "bogus property" .
 <http://tcftest.org/schema/bluetoothHid> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/EmptyGood> .
@@ -203,6 +208,7 @@
 <http://tcftest.org/schema/forwarder> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Organization> .
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#description> "A measure of the gross weight (mass) of these consignments which includes the weight of packaging but which excludes the weight of any transport equipment." .
+<http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/BendTheSpoon> .
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/LiamsClass> .
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/Package> .
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/RailroadWaggon> .
