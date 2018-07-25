@@ -555,12 +555,13 @@
 <http://tcftest.org/schema/testProperty> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/TestClass> .
 <http://tcftest.org/schema/testProperty> <http://www.w3.org/2000/01/rdf-schema#label> "testProperty" .
 <http://tcftest.org/schema/testProperty> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://tcftest.org/schema/ThisIsANewClass> <http://purl.org/dc/terms/modified> "2018-07-25T16:53:46.730Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/ThisIsANewClass> <http://purl.org/dc/terms/modified> "2018-07-25T16:58:57.861Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/ThisIsANewClass> <http://tcftest.org/schema/example> "<new example> <new example> \"\" ." .
 <http://tcftest.org/schema/ThisIsANewClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/ThisIsANewClass> <http://www.w3.org/2000/01/rdf-schema#comment> "long description" .
 <http://tcftest.org/schema/ThisIsANewClass> <http://www.w3.org/2000/01/rdf-schema#description> "short description" .
 <http://tcftest.org/schema/ThisIsANewClass> <http://www.w3.org/2000/01/rdf-schema#label> "thisIsANewClass" .
-<http://tcftest.org/schema/thisIsANewProperty> <http://purl.org/dc/terms/modified> "2018-07-25T16:53:46.730Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/thisIsANewProperty> <http://purl.org/dc/terms/modified> "2018-07-25T16:58:57.861Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/thisIsANewProperty> <http://tcftest.org/schema/example> "<test.com> <test.com> <test.com>" .
 <http://tcftest.org/schema/thisIsANewProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://tcftest.org/schema/thisIsANewProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "long description" .
