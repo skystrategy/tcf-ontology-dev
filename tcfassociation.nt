@@ -213,6 +213,7 @@
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/Package> .
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/RailroadWaggon> .
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/ShippersInstruction> .
+<http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/TestClass> .
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#label> "grossWeight" .
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
 <http://tcftest.org/schema/handoverTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -536,6 +537,10 @@
 <http://tcftest.org/schema/test> <http://www.w3.org/2000/01/rdf-schema#description> "test" .
 <http://tcftest.org/schema/test> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/NewClass> .
 <http://tcftest.org/schema/test> <http://www.w3.org/2000/01/rdf-schema#label> "test" .
+<http://tcftest.org/schema/TestClass> <http://purl.org/dc/terms/modified> "2018-07-17T13:38:19.500Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/TestClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcftest.org/schema/TestClass> <http://www.w3.org/2000/01/rdf-schema#description> "dd" .
+<http://tcftest.org/schema/TestClass> <http://www.w3.org/2000/01/rdf-schema#label> "TestClass" .
 <http://tcftest.org/schema/TestClass1> <http://purl.org/dc/terms/modified> "2018-05-01T14:09:16.543Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/TestClass1> <http://www.w3.org/2000/01/rdf-schema#label> "Test Class 1" .
 <http://tcftest.org/schema/testMarkdown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -543,6 +548,12 @@
 <http://tcftest.org/schema/testMarkdown> <http://www.w3.org/2000/01/rdf-schema#description> "Test Markdown" .
 <http://tcftest.org/schema/testMarkdown> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/ShippersInstruction> .
 <http://tcftest.org/schema/testMarkdown> <http://www.w3.org/2000/01/rdf-schema#label> "TestMarkdown" .
+<http://tcftest.org/schema/testProperty> <http://purl.org/dc/terms/modified> "2018-07-17T13:38:19.500Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/testProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "d" .
+<http://tcftest.org/schema/testProperty> <http://www.w3.org/2000/01/rdf-schema#description> "d" .
+<http://tcftest.org/schema/testProperty> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/TestClass> .
+<http://tcftest.org/schema/testProperty> <http://www.w3.org/2000/01/rdf-schema#label> "testProperty" .
+<http://tcftest.org/schema/testProperty> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 <http://tcftest.org/schema/TrackUpdate> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/TrackUpdate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/TrackUpdate> <http://www.w3.org/2000/01/rdf-schema#comment> "An update on a logistics object of different sensoring data such as location, temperature, humidity, accelerometer, or pressure." .
