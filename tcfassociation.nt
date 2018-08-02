@@ -1,4 +1,5 @@
 <http://schema.org/geo> <http://schema.org/domainIncludes> <http://tcftest.org/pouch/TrackUpdate> .
+<http://tcftest.org/schema/> <http://purl.org/dc/terms/modified> "2018-08-02T11:38:21.701Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/Accelerometer> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/Accelerometer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/accelerometer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -332,6 +333,11 @@
 <http://tcftest.org/schema/NewClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/NewClass> <http://www.w3.org/2000/01/rdf-schema#description> "test" .
 <http://tcftest.org/schema/NewClass> <http://www.w3.org/2000/01/rdf-schema#label> "NewClass" .
+<http://tcftest.org/schema/newprop> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcftest.org/schema/newprop> <http://www.w3.org/2000/01/rdf-schema#comment> "ld" .
+<http://tcftest.org/schema/newprop> <http://www.w3.org/2000/01/rdf-schema#description> "sd" .
+<http://tcftest.org/schema/newprop> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/Customclass> .
+<http://tcftest.org/schema/newprop> <http://www.w3.org/2000/01/rdf-schema#label> "newprop" .
 <http://tcftest.org/schema/notifiedTimestamp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://tcftest.org/schema/notifiedTimestamp> <http://www.w3.org/2000/01/rdf-schema#description> "A time stamp for the notification of the status update ." .
 <http://tcftest.org/schema/notifiedTimestamp> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/AirStatusUpdate> .
