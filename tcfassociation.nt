@@ -134,7 +134,8 @@
 <http://tcftest.org/schema/consignor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/Consignment> .
 <http://tcftest.org/schema/consignor> <http://www.w3.org/2000/01/rdf-schema#label> "Consignor" .
 <http://tcftest.org/schema/consignor> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Organization> .
-<http://tcftest.org/schema/Customclass> <http://purl.org/dc/terms/modified> "2018-08-02T08:21:11.295Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/Customclass> <http://purl.org/dc/terms/modified> "2018-08-02T08:25:02.424Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/Customclass> <http://tcftest.org/schema/example> "my turtle" .
 <http://tcftest.org/schema/Customclass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/Customclass> <http://www.w3.org/2000/01/rdf-schema#comment> "long desc" .
 <http://tcftest.org/schema/Customclass> <http://www.w3.org/2000/01/rdf-schema#description> "shortdesc" .
