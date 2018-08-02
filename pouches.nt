@@ -8,6 +8,7 @@
 <http://tcftest.org/pouch/> <http://schema.org/hasPart> <http://tcftest.org/pouch/MaritimePouch> .
 <http://tcftest.org/pouch/> <http://schema.org/hasPart> <http://tcftest.org/pouch/RailPouch> .
 <http://tcftest.org/pouch/> <http://schema.org/hasPart> <http://tcftest.org/pouch/ShippersPouch> .
+<http://tcftest.org/pouch/> <http://schema.org/hasPart> <http://tcftest.org/pouch/TruckersPouch> .
 <http://tcftest.org/pouch/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <http://tcftest.org/pouch/> <http://www.w3.org/2000/01/rdf-schema#label> "Pouches" .
 <http://tcftest.org/pouch/CargoHandlersPouch> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
@@ -83,6 +84,5 @@
 <http://tcftest.org/pouch/TruckersPouch> <http://www.w3.org/2000/01/rdf-schema#label> "Truckers Pouch" .
 <http://tcftest.org/updates/> <http://schema.org/hasPart> <http://tcftest.org/pouch/StatusUpdatePouch> .
 <http://tcftest.org/updates/> <http://schema.org/hasPart> <http://tcftest.org/pouch/TrackUpdatePouch> .
-<http://tcftest.org/updates/> <http://schema.org/hasPart> <http://tcftest.org/pouch/TruckersPouch> .
 <http://tcftest.org/updates/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> .
 <http://tcftest.org/updates/> <http://www.w3.org/2000/01/rdf-schema#label> "Updates" .
