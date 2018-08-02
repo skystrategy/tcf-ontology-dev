@@ -134,6 +134,11 @@
 <http://tcftest.org/schema/consignor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/Consignment> .
 <http://tcftest.org/schema/consignor> <http://www.w3.org/2000/01/rdf-schema#label> "Consignor" .
 <http://tcftest.org/schema/consignor> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Organization> .
+<http://tcftest.org/schema/Customclass> <http://purl.org/dc/terms/modified> "2018-08-02T08:21:11.295Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/Customclass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcftest.org/schema/Customclass> <http://www.w3.org/2000/01/rdf-schema#comment> "long desc" .
+<http://tcftest.org/schema/Customclass> <http://www.w3.org/2000/01/rdf-schema#description> "shortdesc" .
+<http://tcftest.org/schema/Customclass> <http://www.w3.org/2000/01/rdf-schema#label> "customclass" .
 <http://tcftest.org/schema/DangerousGoodsDeclaration> <http://purl.org/dc/terms/modified> "2017-11-16"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/DangerousGoodsDeclaration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/DangerousGoodsDeclaration> <http://www.w3.org/2000/01/rdf-schema#comment> "Need a good definition of a package. Here is one from businessdictionary.com - Document(s) prepared by a consignor or shipper to certify that the dangerous goods being transported have been packaged, labeled, and declared in accordance with the standard international shipping regulations." .
