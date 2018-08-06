@@ -1,4 +1,5 @@
 <http://schema.org/geo> <http://schema.org/domainIncludes> <http://tcftest.org/pouch/TrackUpdate> .
+<http://tcftest.org/schema/> <http://purl.org/dc/terms/modified> "2018-08-06T11:10:26.139Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/Accelerometer> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/Accelerometer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/accelerometer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -653,6 +654,10 @@
 <http://tcftest.org/schema/y_gvt> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/Accelerometer> .
 <http://tcftest.org/schema/y_gvt> <http://www.w3.org/2000/01/rdf-schema#label> "Y-axis acceleration" .
 <http://tcftest.org/schema/y_gvt> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://tcftest.org/schema/yedi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcftest.org/schema/yedi> <http://www.w3.org/2000/01/rdf-schema#description> "yoda" .
+<http://tcftest.org/schema/yedi> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/Hassesclass1> .
+<http://tcftest.org/schema/yedi> <http://www.w3.org/2000/01/rdf-schema#label> "yedi" .
 <http://tcftest.org/schema/z_gvt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://tcftest.org/schema/z_gvt> <http://www.w3.org/2000/01/rdf-schema#description> "A device accelerometer z-axis reading submitted as a track update." .
 <http://tcftest.org/schema/z_gvt> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/Accelerometer> .
