@@ -1,5 +1,4 @@
 <http://schema.org/geo> <http://schema.org/domainIncludes> <http://tcftest.org/pouch/TrackUpdate> .
-<http://tcftest.org/schema/> <http://purl.org/dc/terms/modified> "2018-08-06T11:10:26.139Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/Accelerometer> <http://purl.org/dc/terms/modified> "2018-02-23"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/Accelerometer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/accelerometer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -213,6 +212,10 @@
 <http://tcftest.org/schema/forwarder> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/ShippersInstruction> .
 <http://tcftest.org/schema/forwarder> <http://www.w3.org/2000/01/rdf-schema#label> "forwarder" .
 <http://tcftest.org/schema/forwarder> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Organization> .
+<http://tcftest.org/schema/Ghiblistudio> <http://purl.org/dc/terms/modified> "2018-08-07T07:29:47.352Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/Ghiblistudio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcftest.org/schema/Ghiblistudio> <http://www.w3.org/2000/01/rdf-schema#comment> "ld" .
+<http://tcftest.org/schema/Ghiblistudio> <http://www.w3.org/2000/01/rdf-schema#label> "Ghiblistudio" .
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#description> "A measure of the gross weight (mass) of these consignments which includes the weight of packaging but which excludes the weight of any transport equipment." .
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/BendTheSpoon> .
@@ -321,6 +324,11 @@
 <http://tcftest.org/schema/MAWB> <http://www.w3.org/2000/01/rdf-schema#comment> "TBD" .
 <http://tcftest.org/schema/MAWB> <http://www.w3.org/2000/01/rdf-schema#label> "Master AirWayBill" .
 <http://tcftest.org/schema/MAWB> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://tcftest.org/schema/LogisticsObject> .
+<http://tcftest.org/schema/movies> <http://purl.org/dc/terms/modified> "2018-08-07T07:29:47.352Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/movies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcftest.org/schema/movies> <http://www.w3.org/2000/01/rdf-schema#comment> "movies are a sequence of pictures, in the case of Ghibli, handdrawn" .
+<http://tcftest.org/schema/movies> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/Ghiblistudio> .
+<http://tcftest.org/schema/movies> <http://www.w3.org/2000/01/rdf-schema#label> "movies" .
 <http://tcftest.org/schema/myNewProperty> <http://purl.org/dc/terms/modified> "2018-07-16T12:39:23.425Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/myNewProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "a very very very veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery veryvery very long description" .
 <http://tcftest.org/schema/myNewProperty> <http://www.w3.org/2000/01/rdf-schema#description> "short description" .
@@ -605,6 +613,11 @@
 <http://tcftest.org/schema/transportAgreementLaneID> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/Consignment> .
 <http://tcftest.org/schema/transportAgreementLaneID> <http://www.w3.org/2000/01/rdf-schema#label> "TransportAgreementLaneID" .
 <http://tcftest.org/schema/transportAgreementLaneID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://tcftest.org/schema/tShirts> <http://purl.org/dc/terms/modified> "2018-08-07T07:29:47.352Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/tShirts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://tcftest.org/schema/tShirts> <http://www.w3.org/2000/01/rdf-schema#comment> "Is a cloth, often used for commercials" .
+<http://tcftest.org/schema/tShirts> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/Ghiblistudio> .
+<http://tcftest.org/schema/tShirts> <http://www.w3.org/2000/01/rdf-schema#label> "t-shirts" .
 <http://tcftest.org/schema/Vessel> <http://purl.org/dc/terms/modified> "2018-03-18"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/Vessel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://tcftest.org/schema/vessel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
