@@ -212,9 +212,9 @@
 <http://tcftest.org/schema/forwarder> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/ShippersInstruction> .
 <http://tcftest.org/schema/forwarder> <http://www.w3.org/2000/01/rdf-schema#label> "forwarder" .
 <http://tcftest.org/schema/forwarder> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Organization> .
-<http://tcftest.org/schema/Ghiblistudio> <http://purl.org/dc/terms/modified> "2018-08-07T07:29:47.352Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/Ghiblistudio> <http://purl.org/dc/terms/modified> "2018-08-07T11:13:24.398Z"^^<http://www.w3.org/2001/XMLSchema#date> .
 <http://tcftest.org/schema/Ghiblistudio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://tcftest.org/schema/Ghiblistudio> <http://www.w3.org/2000/01/rdf-schema#comment> "ld" .
+<http://tcftest.org/schema/Ghiblistudio> <http://www.w3.org/2000/01/rdf-schema#comment> "ld change" .
 <http://tcftest.org/schema/Ghiblistudio> <http://www.w3.org/2000/01/rdf-schema#label> "Ghiblistudio" .
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://tcftest.org/schema/grossWeight> <http://www.w3.org/2000/01/rdf-schema#description> "A measure of the gross weight (mass) of these consignments which includes the weight of packaging but which excludes the weight of any transport equipment." .
