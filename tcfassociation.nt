@@ -19,6 +19,9 @@
 <http://tcftest.org/schema/AirStatusUpdate> <http://www.w3.org/2000/01/rdf-schema#description> "A status update on a logistics object in the transport mode of air." .
 <http://tcftest.org/schema/AirStatusUpdate> <http://www.w3.org/2000/01/rdf-schema#label> "Air Status Update" .
 <http://tcftest.org/schema/AirStatusUpdate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://tcftest.org/schema/StatusUpdate> .
+<http://tcftest.org/schema/AirWaybill> <http://purl.org/dc/terms/modified> "2018-08-08T04:49:23.393Z"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://tcftest.org/schema/AirWaybill> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://tcftest.org/schema/AirWaybill> <http://www.w3.org/2000/01/rdf-schema#label> "Air Waybill" .
 <http://tcftest.org/schema/arrivalTimestamp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://tcftest.org/schema/arrivalTimestamp> <http://www.w3.org/2000/01/rdf-schema#description> "A timestamp for the arrival of the airwaybill ." .
 <http://tcftest.org/schema/arrivalTimestamp> <http://www.w3.org/2000/01/rdf-schema#domain> <http://tcftest.org/schema/AirStatusUpdate> .
